@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YukNacik - Pempek Lezat & Otentik</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff5e5b;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 40px;
+      background: linear-gradient(to right, #fbd14b, #ffb347);
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h2 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text button {
+      background-color: #ff5e5b;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .hero img {
+      max-width: 45%;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 32px;
+      margin-bottom: 40px;
+      color: #ff5e5b;
+    }
+
+    .menu-grid {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .menu-item {
+      background-color: white;
+      padding: 20px;
+      width: 250px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.05);
+    }
+
+    .menu-item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .menu-item h4 {
+      margin: 10px 0 5px;
+    }
+
+    .menu-item p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ffb347;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>YukNacik</h1>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#menu">Menu</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Pempek Palembang Asli</h2>
+      <p>Rasakan sensasi gurih, kenyal, dan cuko yang bikin nagih! YukNacik, pempek legendaris dari resep turun-temurun.</p>
+      <button>Pesan Sekarang</button>
+    </div>
+    <img src="https://images.unsplash.com/photo-1617196038435-433ec6c7f2ec" alt="Pempek Enak">
+  </section>
+
+  <section class="section" id="menu">
+    <h3>Menu Unggulan Kami</h3>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1576866209830-384f4f2f4684" alt="Pempek Kapal Selam">
+        <h4>Pempek Kapal Selam</h4>
+        <p>Isi telur dengan cuko mantap. Favorit semua kalangan.</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb36" alt="Pempek Lenjer">
+        <h4>Pempek Lenjer</h4>
+        <p>Lembut dan kenyal, cocok untuk semua umur.</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1617196038435-433ec6c7f2ec" alt="Pempek Adaan">
+        <h4>Pempek Adaan</h4>
+        <p>Digoreng garing di luar, lembut di dalam. Nikmat maksimal!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="kontak">
+    <p>&copy; 2025 YukNacik. Semua hak dilindungi.</p>
+    <p>📍 Sidoarjo | 📞 0812-3456-7890 | 📧 yuknacik@email.com</p>
+    <p>
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">TikTok</a>
+    </p>
+  </footer>
+
+</body>
+</html>
